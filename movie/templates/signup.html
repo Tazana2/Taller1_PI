@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h2>Added {{ email }} to mailing list</h2>
+<!-- Este enlace no es necesario pues se puede extender base.html y se optiene el navbar -->
+<a href="{% url 'home' %}">Go Home</a> 
+
+{% endblock content %}
